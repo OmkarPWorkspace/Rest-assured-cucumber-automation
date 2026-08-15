@@ -7,9 +7,10 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions 
 (
-		features = {"src\\test\\resources\\Pet Feature"},
+		features = {"src\\test\\resources\\Features\\PetAPI.feature"},
 		glue = {"steps"},
 		plugin = {"pretty"}
+	//	tags = "@Block"
 		
 		
 )

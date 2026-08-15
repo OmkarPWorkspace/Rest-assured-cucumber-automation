@@ -17,10 +17,6 @@ public class SpecBuilder
 		
 		.setBasePath("v2")
 		
-		.addHeader("Content-Type", "application/json")
-		
-	
-		
 		.log(LogDetail.ALL)
 		
 		.build();

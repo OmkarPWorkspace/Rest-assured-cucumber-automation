@@ -25,7 +25,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 public class Pet {
 
     @JsonProperty("id")
-    private Long id;
+    private int id;
     @JsonProperty("category")
     private Category category;
     @JsonProperty("name")
@@ -40,12 +40,12 @@ public class Pet {
     private Map<String, Object> additionalProperties = new LinkedHashMap<String, Object>();
 
     @JsonProperty("id")
-    public Long getId() {
+    public int getId() {
         return id;
     }
 
     @JsonProperty("id")
-    public void setId(Long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
