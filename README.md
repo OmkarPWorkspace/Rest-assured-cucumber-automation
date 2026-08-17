@@ -26,7 +26,7 @@ API automation framework built using Java, REST Assured, Cucumber BDD, TestNG an
 - HTTP status code validation
 - Response body validation
 - CRUD API automation
-- Reusable utility classes
+- Reusable utility class
 
 ## API Operations Covered
 
