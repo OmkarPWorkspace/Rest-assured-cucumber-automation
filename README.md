@@ -12,6 +12,7 @@ API automation framework built using Java, REST Assured, Cucumber BDD, TestNG an
 - Java Faker
 - Jackson
 - Hamcrest
+  
 
 ## Framework Features
 
