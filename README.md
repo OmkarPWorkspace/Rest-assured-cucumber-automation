@@ -64,5 +64,4 @@ Run tests:
 mvn test
 
 ## Author :
-
 Omkar Pujari
